@@ -1,0 +1,7 @@
+var pig = 7
+var diggler = 60
+
+console.log(pig+diggler)
+
+var TeacherName = "Mr DiggleTouch"
+var
