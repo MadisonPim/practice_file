@@ -1,0 +1,36 @@
+
+<!--
+var price = 50;
+var taxes = 10;
+var total = price + taxes;
+
+var funny = total * taxes;  
+console.log(funny + taxes);
+
+<!---
+var number = 5;
+var plusNumber = 15;
+
+var sum = number + plusNumber
+console.log(number+plusNumber)
+
+<!--
+var number = 200;
+var timesNumber = 500;
+
+var product = number*timesNumber
+console.log(product)
+<!--
+var math = 144;
+var number = 12;
+
+var quotient = math / number;
+
+console.log(quotient)
+<!--
+var number = 150;
+var man = 67;
+
+var difference = number - man
+console.log(difference)
+
