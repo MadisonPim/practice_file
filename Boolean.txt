@@ -1,0 +1,20 @@
+let isPlayerOneTurn = true;
+let player1Score = 0;
+let player2Score = 0;
+let playerChoice = "dare";
+let userResponse = "yes";
+console.log("TRUTH OR DARE");
+console.log("Turn:", isPlayerOneTurn ? "P1" : "P2");
+if (playerChoice == "truth") {
+    
+    console.log("Chose: Truth");
+    
+    if (userResponse === "yes") player1Score++;
+} else {
+    console.log("Chose: Dare");
+    if (userResponse === "yes") player1Score++;
+}
+
+console.log("Scores: P1", player1Score, "P2", player2Score);
+isPlayerOneTurn = !isPlayerOneTurn;
+console.log("Next Turn:", isPlayerOneTurn ? "P1" : "P2");
